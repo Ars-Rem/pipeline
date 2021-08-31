@@ -43,8 +43,10 @@ pipeline {
                  sh 'echo ok'
              }
          }
+         
          stage ('Recycle') {
              steps {
                  sh 'rm -rf *'
             }
             
+
